@@ -10,8 +10,12 @@ user_router = Router()
 
 @user_router.message(Command('start'))
 async def user_start(message: Message):
-    await message.answer('Привет, я помогу тебе с VPN\n\n'
-                         'Исходный код бота - <a href="https://github.com/bl4ckm45k/vpnbot">GitHub</a>\n',
+    await message.answer('မင်္ဂလာပါ.....
+
+💥SkyLinkFreeVPN မှ ကြိုဆိုပါတယ်နော် ။
+
+💥ကြိုက်နှစ်သက်ရာ Key ကို Copy ကူးပြီး  <a href="https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&pcampaignid=web_share">v2box VPN Software</a> ထဲထည့်သုံးပါ ။\n\n'
+                         '💥Outline Software Download - <a href="https://play.google.com/store/apps/details?id=org.outline.android.client&pcampaignid=web_share">ဒီမှာလုပ်ပါ</a>\n',
                          reply_markup=keyboard_start(), disable_web_page_preview=True)
 
 
